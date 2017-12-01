@@ -17,6 +17,7 @@ namespace Final1_Colegio.Controllers
         // GET: Students
         public ActionResult Index()
         {
+
             return View(db.Students.ToList());
         }
 
